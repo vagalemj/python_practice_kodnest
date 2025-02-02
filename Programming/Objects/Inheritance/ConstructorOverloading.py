@@ -1,0 +1,14 @@
+class Demo1:
+    def __init__(self):
+        self.x = 100
+    def __init__(self):
+        self.x = 200
+d1 = Demo1()
+print(d1.x)
+
+'''
+WHEN WE CREATE MULTIPLE CONSTRUCTOR IN SAME CLASS THEN ONLY LAST DECLARED CONSTRUCTOR 
+WILL BE ENVOKED AT THE TIME OF OBJECT CREATION.
+
+PYTHON DONT SUPPORT CONSTRUCTOR OVERLOADING.
+'''
