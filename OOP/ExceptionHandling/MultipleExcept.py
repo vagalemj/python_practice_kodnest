@@ -7,5 +7,7 @@ def disp(a,b):
         print("NameError")
     except TypeError:
         print("TypeError")
+    except:
+        print("some error Error")
 
 disp(10, 'Madhu')
